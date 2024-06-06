@@ -13,9 +13,7 @@ We have archived the arXiv metadata snapshop version 111 [here](https://huggingf
 
 ### zbMath
 
-Unfortunately, we cannot include **class-zbmath-dataset.csv**, the zbMath title dataset used to fine-tune / evaluate models on the **Class<sub>ZBM</sub>** task. However, we will include **class-zbmath-identifier-dataset.csv** a dataset than only contains the respective zbMath identifiers as well as primary and secondary MSC classification.
-
-The conversion is in progress and it should be available within the next days.
+Unfortunately, we cannot include **class-zbmath-dataset.csv**, the zbMath title dataset used to fine-tune / evaluate models on the **Class<sub>ZBM</sub>** task due to licensing issues. However, we have created **class-zbmath-identifier-dataset.csv** a dataset than only contains the respective zbMath identifiers (also known as an) with primary and secondary MSC classification but without titles. It is available through [Huggingface](https://huggingface.co/datasets/math-similarity/class-zbmath-identifier).
 
 ## Models
 Some of the trained (similarity) models are available through huggingface and can directly be used in Python, e.g., with the [sentence-transformers](https://pypi.org/project/sentence-transformers/) package.
